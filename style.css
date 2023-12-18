@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+}
+
+
+.gallery-item {
+    overflow: hidden;
+    cursor: pointer;
+   
+}
+
+img {
+    width: 100%;
+    height: 70%;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    margin-top: 70px;
+    box-shadow: 2px 2px 2px 2px rgb(132, 128, 128);
+    
+          
+}
+
+img:hover {
+    transform: scale(1.1);
+}
+
+.form-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    align-items: center;
+    justify-content: center;
+}
+
+.form-container {
+    background: white;
+    width: 20rem;
+    padding: 20px;
+    border-radius: 10px;
+    background-image:url(IMG-1.jpeg);
+    background-size: cover;
+    color: aliceblue;
+}
+
+label {
+    display: block;
+            margin-bottom: 8px;
+}
+
+.congratulations-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    align-items: center;
+    justify-content: center;
+}
+
+.congratulations-image {
+    width: 50%;
+    height: auto;
+}
